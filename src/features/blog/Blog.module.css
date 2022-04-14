@@ -1,0 +1,42 @@
+.header {
+  color: #eee;
+  text-align: center;
+}
+.blog {
+  color: #eee;
+  background-color: #111;
+  min-height: 100vh;
+  max-width: 500px;
+  margin: auto;
+  padding: 2em;
+}
+
+.post {
+  background-color: #333;
+  border-radius: 0.3em;
+  padding: 10px 18px;
+  margin: 10px 0px;
+}
+
+.postform {
+  padding: 18px;
+  border-radius: 0.3em;
+  gap: 0.6em;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+}
+
+.formlabel {
+  font-size: small;
+}
+
+.formbutton {
+  background-color: #111;
+  color: #eee;
+  margin-top: 0.8em;
+  border-radius: 0.3em;
+}
+.formtextarea {
+  resize: none;
+}
