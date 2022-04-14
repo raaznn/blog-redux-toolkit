@@ -6,8 +6,9 @@ import styles from "./Blog.module.css";
 
 const Blog = () => {
   const posts = useSelector(getAllPosts);
+  const orderedPosts = posts.slice().sort((a, b) => b.createdAt - a.createdAt);
 
-  const renderedPosts = posts.map((post) => {
+  const renderedPosts = orderedPosts.map((post) => {
     return <Post key={post.id} {...post} />;
   });
 
