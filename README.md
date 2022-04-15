@@ -4,4 +4,4 @@
 
 Simple React Blog app using Redux Toolkit for state management.
 
-Visit app here : [https://raaznn.github.io/blog-using-redux-toolkit](https://raaznn.github.io/blog-using-redux-toolkit)
+Visit app here : [https://raaznn.github.io/blog-redux-toolkit/](https://raaznn.github.io/blog-redux-toolkit/)
